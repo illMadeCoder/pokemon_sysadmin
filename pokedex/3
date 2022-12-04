@@ -1,0 +1,19 @@
+{
+  "id": 3,
+  "name": "venusaur",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "height": 20,
+  "weight": 1000,
+  "stats": {
+    "hp": 80,
+    "attack": 82,
+    "defense": 83,
+    "special-attack": 100,
+    "special-defense": 100,
+    "speed": 80
+  }
+}

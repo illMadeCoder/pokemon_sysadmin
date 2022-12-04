@@ -1,0 +1,19 @@
+{
+  "id": 1,
+  "name": "bulbasaur",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "height": 7,
+  "weight": 69,
+  "stats": {
+    "hp": 45,
+    "attack": 49,
+    "defense": 49,
+    "special-attack": 65,
+    "special-defense": 65,
+    "speed": 45
+  }
+}

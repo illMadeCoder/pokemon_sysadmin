@@ -1,0 +1,18 @@
+{
+  "id": 56,
+  "name": "mankey",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png",
+  "types": [
+    "fighting"
+  ],
+  "height": 5,
+  "weight": 280,
+  "stats": {
+    "hp": 40,
+    "attack": 80,
+    "defense": 35,
+    "special-attack": 35,
+    "special-defense": 45,
+    "speed": 70
+  }
+}

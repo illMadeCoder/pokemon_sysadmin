@@ -1,0 +1,18 @@
+{
+  "id": 126,
+  "name": "magmar",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png",
+  "types": [
+    "fire"
+  ],
+  "height": 13,
+  "weight": 445,
+  "stats": {
+    "hp": 65,
+    "attack": 95,
+    "defense": 57,
+    "special-attack": 100,
+    "special-defense": 85,
+    "speed": 93
+  }
+}

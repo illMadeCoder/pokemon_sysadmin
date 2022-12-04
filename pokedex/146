@@ -1,0 +1,19 @@
+{
+  "id": 146,
+  "name": "moltres",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png",
+  "types": [
+    "fire",
+    "flying"
+  ],
+  "height": 20,
+  "weight": 600,
+  "stats": {
+    "hp": 90,
+    "attack": 100,
+    "defense": 90,
+    "special-attack": 125,
+    "special-defense": 85,
+    "speed": 90
+  }
+}

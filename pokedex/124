@@ -1,0 +1,19 @@
+{
+  "id": 124,
+  "name": "jynx",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png",
+  "types": [
+    "ice",
+    "psychic"
+  ],
+  "height": 14,
+  "weight": 406,
+  "stats": {
+    "hp": 65,
+    "attack": 50,
+    "defense": 35,
+    "special-attack": 115,
+    "special-defense": 95,
+    "speed": 95
+  }
+}

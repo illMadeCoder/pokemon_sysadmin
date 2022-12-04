@@ -1,0 +1,18 @@
+{
+  "id": 50,
+  "name": "diglett",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png",
+  "types": [
+    "ground"
+  ],
+  "height": 2,
+  "weight": 8,
+  "stats": {
+    "hp": 10,
+    "attack": 55,
+    "defense": 25,
+    "special-attack": 35,
+    "special-defense": 45,
+    "speed": 95
+  }
+}

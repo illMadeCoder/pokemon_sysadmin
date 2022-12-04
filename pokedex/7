@@ -1,0 +1,18 @@
+{
+  "id": 7,
+  "name": "squirtle",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+  "types": [
+    "water"
+  ],
+  "height": 5,
+  "weight": 90,
+  "stats": {
+    "hp": 44,
+    "attack": 48,
+    "defense": 65,
+    "special-attack": 50,
+    "special-defense": 64,
+    "speed": 43
+  }
+}

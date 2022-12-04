@@ -1,0 +1,18 @@
+{
+  "id": 96,
+  "name": "drowzee",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png",
+  "types": [
+    "psychic"
+  ],
+  "height": 10,
+  "weight": 324,
+  "stats": {
+    "hp": 60,
+    "attack": 48,
+    "defense": 45,
+    "special-attack": 43,
+    "special-defense": 90,
+    "speed": 42
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 134,
+  "name": "vaporeon",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png",
+  "types": [
+    "water"
+  ],
+  "height": 10,
+  "weight": 290,
+  "stats": {
+    "hp": 130,
+    "attack": 65,
+    "defense": 60,
+    "special-attack": 110,
+    "special-defense": 95,
+    "speed": 65
+  }
+}

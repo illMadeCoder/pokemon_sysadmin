@@ -1,0 +1,18 @@
+{
+  "id": 147,
+  "name": "dratini",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png",
+  "types": [
+    "dragon"
+  ],
+  "height": 18,
+  "weight": 33,
+  "stats": {
+    "hp": 41,
+    "attack": 64,
+    "defense": 45,
+    "special-attack": 50,
+    "special-defense": 50,
+    "speed": 50
+  }
+}

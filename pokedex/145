@@ -1,0 +1,19 @@
+{
+  "id": 145,
+  "name": "zapdos",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png",
+  "types": [
+    "electric",
+    "flying"
+  ],
+  "height": 16,
+  "weight": 526,
+  "stats": {
+    "hp": 90,
+    "attack": 90,
+    "defense": 85,
+    "special-attack": 125,
+    "special-defense": 90,
+    "speed": 100
+  }
+}

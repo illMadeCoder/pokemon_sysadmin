@@ -1,0 +1,18 @@
+{
+  "id": 128,
+  "name": "tauros",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png",
+  "types": [
+    "normal"
+  ],
+  "height": 14,
+  "weight": 884,
+  "stats": {
+    "hp": 75,
+    "attack": 100,
+    "defense": 95,
+    "special-attack": 40,
+    "special-defense": 70,
+    "speed": 110
+  }
+}

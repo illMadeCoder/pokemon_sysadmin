@@ -1,0 +1,19 @@
+{
+  "id": 103,
+  "name": "exeggutor",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png",
+  "types": [
+    "grass",
+    "psychic"
+  ],
+  "height": 20,
+  "weight": 1200,
+  "stats": {
+    "hp": 95,
+    "attack": 95,
+    "defense": 85,
+    "special-attack": 125,
+    "special-defense": 75,
+    "speed": 55
+  }
+}

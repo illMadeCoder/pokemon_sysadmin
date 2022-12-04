@@ -1,0 +1,18 @@
+{
+  "id": 101,
+  "name": "electrode",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png",
+  "types": [
+    "electric"
+  ],
+  "height": 12,
+  "weight": 666,
+  "stats": {
+    "hp": 60,
+    "attack": 50,
+    "defense": 70,
+    "special-attack": 80,
+    "special-defense": 80,
+    "speed": 150
+  }
+}

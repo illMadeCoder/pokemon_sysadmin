@@ -1,0 +1,18 @@
+{
+  "id": 57,
+  "name": "primeape",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png",
+  "types": [
+    "fighting"
+  ],
+  "height": 10,
+  "weight": 320,
+  "stats": {
+    "hp": 65,
+    "attack": 105,
+    "defense": 60,
+    "special-attack": 60,
+    "special-defense": 70,
+    "speed": 95
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 68,
+  "name": "machamp",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png",
+  "types": [
+    "fighting"
+  ],
+  "height": 16,
+  "weight": 1300,
+  "stats": {
+    "hp": 90,
+    "attack": 130,
+    "defense": 80,
+    "special-attack": 65,
+    "special-defense": 85,
+    "speed": 55
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": 114,
+  "name": "tangela",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png",
+  "types": [
+    "grass"
+  ],
+  "height": 10,
+  "weight": 350,
+  "stats": {
+    "hp": 65,
+    "attack": 55,
+    "defense": 115,
+    "special-attack": 100,
+    "special-defense": 40,
+    "speed": 60
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "import": {
+	"pokedex": {
+	    "version": 1,
+	    "start": 1,
+	    "end": 3
+	}
+    },
+    "export": {
+    }
+}

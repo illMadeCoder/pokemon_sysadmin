@@ -1,1 +1,0 @@
-{id,name,sprite:.sprites.front_default,types:[.types[].type.name],height,weight,stats:[.stats[] | {(.stat.name):.base_stat}] | add}

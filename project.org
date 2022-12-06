@@ -1,0 +1,125 @@
+* project file structure
+** data
+*** scripts
+*** jqs
+*** urls
+*** cache
+** game
+*** pokedex
+*** import
+*** export
+* features
+** days
+A day is a set of exercises for the player to accomplish together and
+are ordered in way that any exercises on day N should introduce some
+small set of new sysadmin skills along with any necessary new files to
+work with but also be safely dependent on any state and skills
+produced in a previous day.
+*** import/export
+Each day will be expressed and tested for the user with a set of pair
+folders import and export. Where import will contain the neccessary
+files to enage a new exercise and export will be where any exercise
+solutions are stored for day completion testing.
+*** exercise test
+An automated test runs when a day is completed to determine if all
+exercises are completed successfully.
+* commands
+** mv
+** cp
+** touch
+** mkdir
+* pokedex
+** v1
+pokemon/stats
+pokemon/figure
+pokemon/description
+pokemon/types
+* days
+** 0
+*** briefing
+
+*** fs
+~/.
+*** todos
+-
+*** commands
+-   
+** 1
+*** briefing
+welcome day 1
+*** pokedex
+*** fs
+~/.
+*** todos
+- create pokedex directory
+- move into pokedex
+- create new file pikachu
+- print pokedex
+*** commands
+- cd
+- touch
+- mkdir
+- cat
+** 2
+*** briefing
+we were able to collect data on pikachu
+*** fs
+~/pokedex
+~/import
+*** pokedex
+v1
+25
+*** todos
+- move pikachu from import to pokedex
+- concat pikachu data into a single file containing:
+  - name
+  - figure
+  - types
+  - description
+*** commands
+- cat
+- >>   
+** 3
+*** briefing
+we obtained the starter pokemon
+*** pokedex
+v1
+1..3
+*** fs
+~/.
+~/pokedex
+~/import
+*** todos
+- move the pokemon from import to pokedex with a glob
+- 
+*** commands
+- *
+- mv
+- 
+** 4
+*** briefing
+*** pokedex
+*** fs
+~/.
+*** todos
+-
+*** commands
+-
+** 5
+*** briefing
+*** pokedex
+*** fs
+~/.
+*** todos
+-
+*** commands
+-
+** 6
+*** briefing
+*** pokedex
+*** fs
+~/.
+*** todos
+-
+*** commands
+-     

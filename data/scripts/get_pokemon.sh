@@ -1,18 +1,39 @@
 #!/bin/bash
 
-#1 target directory
-#2 pokemon id min or single
-#3 pokemon id max
+# bash script arguements
+# arg 1 : pokemon_id
 
-pokemon_get="$(dirname "$0")/../urls/pokemon.url"
-
-if [ $# -lt 2 ]
+if [ $# -ne 1 ]
 then
-    echo "requires arg 1 target directory and arg 2 3 pokemon ids"
+    echo "requires argument pokemon id"
     exit 1
-fi    
+fi
 
-for i in $(seq $2 $3);
-do    
-    echo $i | xargs -I{id} curl $(cat $pokemon_get) > $1/$i;
-done
+pokemon_id=$1
+
+# paths
+data_dir="$(dirname "$0")/.."
+endpoints_dir="$data_dir/endpoints"
+pokedex_jq_dir="$data_dir/pokedex_jqs"
+
+# endpoints
+pokemon_url="$(cat $endpoints_dir/pokemon.url)"
+pokemon_species_url="$(cat $endpoints_dir/pokemon_species.url)"
+
+# pokedex jq
+base_pokedex_jq="$pokedex_jq_dir/base_pokedex.jq"    
+
+# retrieve data
+pokemon_get_response=$(echo $pokemon_id | xargs -I{id} curl $pokemon_url)
+pokemon_species_get_response=$(echo $pokemon_id | xargs -I{id} curl $pokemon_species_url)
+
+# extract filename variables 
+pokemon_name=$(echo $pokemon_get_response | jq -r ".name")
+pokemon_id=$(echo $pokemon_get_response | jq ".id")
+pokemon_id_name="${pokemon_id}_${pokemon_name}"
+
+# format body
+echo "[$pokemon_get_response, $pokemon_species_get_response]" \
+    | jq -f $base_pokedex_jq
+
+

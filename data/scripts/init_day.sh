@@ -9,25 +9,31 @@ then
 fi
 
 # file paths
-day="$(dirname "$0")/../days/$1.json"
-pokemon="$(dirname "$0")/../pokemon"
-game="$(dirname "$0")/../../game"
-import="$game/import"
-export="$game/export"
+day_dir="$(dirname "$0")/../days/$1.json"
+pokemon_dir="$(dirname "$0")/../pokemon"
+game_dir="$(dirname "$0")/../../game"
+import_dir="$game_dir/import"
+export_dir="$game_dir/export"
+jq_dir="$(dirname "$0")/../jqs"
+
+#pokedex jqs
+v1_pokedex_jq="$jq_dir/v1_pokedex.jq"
 
 # day jq
-pokedex_start=$(jq '.import.pokedex.start' $day)
-pokedex_end=$(jq '.import.pokedex.end' $day)
-pokedex_version=$(jq '.import.pokedex.version' $day)
+pokedex_start=$(jq '.import.pokedex.start' $day_dir)
+pokedex_end=$(jq '.import.pokedex.end' $day_dir)
+pokedex_version=$(jq '.import.pokedex.version' $day_dir)
 
 # pokemon
 pokemon_ids=$(seq $pokedex_start $pokedex_end)
 
 for i in $pokemon_ids
 do
-    pokemon=$pokemon/$i
-    pokemon_name=jq ".name" $pokemon
-    pokemon_id=jq ".id" $pokemon
-    pokemon_id_name=
-    > $import/$i
+    pokemon=$pokemon_dir/$i
+    echo $pokemon
+    pokemon_name=$(jq -r ".name" $pokemon)
+    pokemon_id=$(jq ".id" $pokemon)
+    pokemon_id_name="${pokemon_id}_${pokemon_name}"
+    pokemon_id_name
+    
 done

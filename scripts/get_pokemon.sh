@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# load config
+. load_config.sh
+
 # bash script arguements
 # arg 1 : pokemon_id
 
@@ -11,17 +14,12 @@ fi
 
 pokemon_id=$1
 
-# paths
-data_dir="$(dirname "$0")/.."
-endpoints_dir="$data_dir/endpoints"
-pokedex_jq_dir="$data_dir/pokedex_jqs"
-
 # endpoints
-pokemon_url="$(cat $endpoints_dir/pokemon.url)"
-pokemon_species_url="$(cat $endpoints_dir/pokemon_species.url)"
+pokemon_url="$(cat $endpoints_path/pokemon.url)"
+pokemon_species_url="$(cat $endpoints_path/pokemon_species.url)"
 
 # pokedex jq
-base_pokedex_jq="$pokedex_jq_dir/base_pokedex.jq"    
+base_pokedex_jq="$pokedex_jqs_path/base_pokedex.jq"    
 
 # retrieve data
 pokemon_get_response=$(echo $pokemon_id | xargs -I{id} curl $pokemon_url)

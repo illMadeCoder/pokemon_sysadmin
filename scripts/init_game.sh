@@ -1,11 +1,12 @@
 #!/bin/bash
 
-root="$(dirname "$0")../../game/"
+. load_config.sh
+
 dirs="pokedex import export"
 
-rm -r ${root}*
+rm -r ${game_path}*
 
 for dir in $dirs
 do
-    touch ${root}${dir}
+    mkdir ${game_path}${dir}
 done    

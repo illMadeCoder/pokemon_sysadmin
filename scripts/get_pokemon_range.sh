@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# load config
+. load_config.sh
+
 # bash script arguments
 # arg 1: target directory
 # arg 2: pokemon id min or single
@@ -11,16 +14,10 @@ then
     exit 1
 fi
 
-# filepaths
-data_dir="$(dirname "$0")/.."
-scripts_dir="$data_dir/scripts"
-
 for i in $(seq $2 $3)
 do
-    pokemon=$($scripts_dir/get_pokemon.sh $i)
+    pokemon=$($scripts_path/get_pokemon.sh $i)
     pokemon_id_name=$(echo $pokemon | jq -r '"\(.id)_\(.name)"')
-    echo $pokemon_id_name
     target_file_name="$pokemon_id_name.json"
-    echo "$1/$target_file_name"
     echo $pokemon > "$1/$target_file_name"
 done

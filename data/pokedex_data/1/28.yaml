@@ -1,0 +1,5 @@
+id: 28
+name: sandslash
+types:
+  - ground
+flavor_text: "It is skilled at slashing enemies with its claws.\fIf broken, they\nstart to grow back\nin a day."

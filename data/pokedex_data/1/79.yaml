@@ -1,0 +1,6 @@
+id: 79
+name: slowpoke
+types:
+  - water
+  - psychic
+flavor_text: "Incredibly slow and dopey. It takes 5 seconds\ffor it to feel\npain when under\nattack."

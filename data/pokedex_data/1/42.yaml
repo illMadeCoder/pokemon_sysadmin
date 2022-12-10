@@ -1,0 +1,6 @@
+id: 42
+name: golbat
+types:
+  - poison
+  - flying
+flavor_text: "It attacks in a stealthy manner, without warning.\fIts sharp fangs\nare used to bite\nand suck blood."

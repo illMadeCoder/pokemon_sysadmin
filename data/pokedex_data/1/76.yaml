@@ -1,0 +1,6 @@
+id: 76
+name: golem
+types:
+  - rock
+  - ground
+flavor_text: "Once it sheds its skin, its body turns tender and\fwhitish. Its hide\nhardens when it's\nexposed to air."

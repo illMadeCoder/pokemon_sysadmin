@@ -1,0 +1,6 @@
+id: 69
+name: bellsprout
+types:
+  - grass
+  - poison
+flavor_text: "Prefers hot and humid places. It ensnares tiny\finsects with its\nvines and devours\nthem."

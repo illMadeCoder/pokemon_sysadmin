@@ -1,0 +1,6 @@
+id: 2
+name: ivysaur
+types:
+  - grass
+  - poison
+flavor_text: "The bulb on its back grows by drawing energy.\fIt gives off an\naroma when it is\nready to bloom."

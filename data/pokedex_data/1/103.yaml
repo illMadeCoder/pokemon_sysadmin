@@ -1,0 +1,6 @@
+id: 103
+name: exeggutor
+types:
+  - grass
+  - psychic
+flavor_text: "Its cries are very noisy. This is because each of\fthe 3 heads thinks\nabout whatever it\nlikes."

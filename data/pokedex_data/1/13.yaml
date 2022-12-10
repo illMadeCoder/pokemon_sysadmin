@@ -1,0 +1,6 @@
+id: 13
+name: weedle
+types:
+  - bug
+  - poison
+flavor_text: "Beware of the sharp stinger on its head. It\fhides in grass\nand bushes where\nit eats leaves."

@@ -1,0 +1,6 @@
+id: 123
+name: scyther
+types:
+  - bug
+  - flying
+flavor_text: "Leaps out of tall grass and slices prey with its\fscythes. The move­\nment looks like\nthat of a ninja."

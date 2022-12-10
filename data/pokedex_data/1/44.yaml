@@ -1,0 +1,6 @@
+id: 44
+name: gloom
+types:
+  - grass
+  - poison
+flavor_text: "Smells incredibly foul! However, around 1 out of\f1,000 people enjoy\nsniffing its nose-\nbending stink."

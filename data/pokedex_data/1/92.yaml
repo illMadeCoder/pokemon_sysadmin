@@ -1,0 +1,6 @@
+id: 92
+name: gastly
+types:
+  - ghost
+  - poison
+flavor_text: "Said to appear in decrepit, deserted buildings. It has\fno real shape as\nit appears to be\nmade of a gas."

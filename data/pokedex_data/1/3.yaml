@@ -1,0 +1,6 @@
+id: 3
+name: venusaur
+types:
+  - grass
+  - poison
+flavor_text: "The flower on its back catches the sun's rays.\fThe sunlight is\nthen absorbed and\nused for energy."

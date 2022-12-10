@@ -1,0 +1,5 @@
+id: 7
+name: squirtle
+types:
+  - water
+flavor_text: "Shoots water at prey while in the water.\fWithdraws into\nits shell when in\ndanger."

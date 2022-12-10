@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# todo: press up/down for command history
+# todo: tab for auto complete
+
 clear
 echo "welcome to pokemon_sysadmin"
 
@@ -15,16 +18,27 @@ if [[ $# -gt 0 ]]
 then   
     day=$1
 else
-    day=1
     read -p "day: " day
-    $init_day_path $day
-fi    
+fi
+
+$init_day_path $day
 
 cd $game_path
 
+clear
 while true
 do
+    echo "Pokemon *Nix V0.21"
+    echo "------------------"
+    echo "Displaying the Present Working Directory /$(basename $(pwd))"
+    tree -C
+    echo "------------------"
+    echo "Enter a command or help:"
     read -p "/$(basename $(pwd))$ " input
+    echo "------------------"
     $input
-    echo ""
+    # todo: when output is empty move on without press enter
+    echo "------------------"
+    read -sp "press enter to continue..." input
+    clear
 done

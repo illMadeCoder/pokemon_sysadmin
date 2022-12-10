@@ -53,44 +53,15 @@ do
     mkdir -p $dir
     
     # get data to cache
-    pokemon=$($http_get_pokemon $i)
+    base=$($http_get_base $i)
     species=$($http_get_species $i)
 
     #validate data integrity
-    pokemon_json_id=$(echo "$pokemon" | jq .id)
-    species_json_id=$(echo "$species" | jq .id)
-    
-    if [[ $pokemon_json_id -ne $i ]]
-    then
-	echo "failed to get $i pokemon"
-	echo "one retry"
-	sleep 5
-	pokemon=$($http_get_pokemon $i)
-	pokemon_json_id=$(echo "$pokemon" | jq .id)
-	if [[ $pokemon_json_id -ne $i ]]
-	then
-	    echo "retry failed"
-	    exit 1
-	fi
-    fi
-
-    if [[ $species_json_id -ne $i ]]
-    then
-	echo "failed to get $i species"
-	
-	echo "one retry"
-	sleep 5
-	species=$($http_get_species $i)
-	species_json_id=$(echo "$species" | jq .id)
-	if [[ $species_json_id -ne $i ]]
-	then
-	    echo "retry failed"
-	    exit 1
-	fi	
-    fi
+    base_json_id=$(echo "$base" | jq .id)
+    species_json_id=$(echo "$species" | jq .id)    
         
     # populate cache
     # put in sub command because mew id 151 is seemingly too big at 500k bytes
-    $(echo "$pokemon" > "$dir/pokemon.json")
+    $(echo "$base" > "$dir/base.json")
     $(echo "$species" > "$dir/species.json")    
 done

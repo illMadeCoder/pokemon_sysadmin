@@ -3,7 +3,7 @@ scripts_path="$(dirname "$0")"
 
 # scripts
 http_client="$scripts_path/http_client"
-http_get_pokemon="$http_client/pokemon.sh"
+http_get_base="$http_client/base.sh"
 http_get_species="$http_client/species.sh"
 
 # mappers

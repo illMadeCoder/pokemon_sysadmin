@@ -3,4 +3,8 @@ name: oddish
 types:
   - grass
   - poison
-flavor_text: "It may be mistaken for a clump of weeds. If you try\fto yank it out of\nthe ground, it\nshrieks horribly."
+flavor_text: |-
+  It may be mistaken for a clump of
+  weeds. If you try to yank it out of
+  the ground, it
+  shrieks horribly.

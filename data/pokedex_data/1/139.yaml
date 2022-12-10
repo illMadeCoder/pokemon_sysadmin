@@ -3,4 +3,8 @@ name: omastar
 types:
   - rock
   - water
-flavor_text: "Sharp beaks ring its mouth. Its shell was too big\ffor it to move\nfreely, so it\nbecame extinct."
+flavor_text: |-
+  Sharp beaks ring its mouth. Its
+  shell was too big for it to move
+  freely, so it
+  became extinct.

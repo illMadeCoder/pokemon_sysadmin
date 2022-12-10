@@ -3,4 +3,8 @@ name: poliwrath
 types:
   - water
   - fighting
-flavor_text: "Swims powerfully using all the muscles in its\fbody. It can even\novertake champion\nswimmers."
+flavor_text: |-
+  Swims powerfully using all the
+  muscles in its body. It can even
+  overtake champion
+  swimmers.

@@ -2,4 +2,8 @@ id: 107
 name: hitmonchan
 types:
   - fighting
-flavor_text: "Punches in cork­ screw fashion. It can punch its way\fthrough a concrete\nwall in the same\nway as a drill."
+flavor_text: |-
+  Punches in cork­ screw fashion. It
+  can punch its way through a concrete
+  wall in the same
+  way as a drill.

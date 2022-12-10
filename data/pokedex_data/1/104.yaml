@@ -2,4 +2,8 @@ id: 104
 name: cubone
 types:
   - ground
-flavor_text: "Wears the skull of its deceased mother. Its cries\fecho inside the\nskull and come out\nas a sad melody."
+flavor_text: |-
+  Wears the skull of its deceased
+  mother. Its cries echo inside the
+  skull and come out
+  as a sad melody.

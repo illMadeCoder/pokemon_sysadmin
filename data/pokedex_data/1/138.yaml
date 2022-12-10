@@ -3,4 +3,8 @@ name: omanyte
 types:
   - rock
   - water
-flavor_text: "An ancient POKéMON that was recovered from a fossil. It\fswims by cleverly\ntwisting its 10\ntentacles about."
+flavor_text: |-
+  An ancient POKéMON that was recovered
+  from a fossil. It swims by cleverly
+  twisting its 10
+  tentacles about.

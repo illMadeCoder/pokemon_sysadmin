@@ -2,4 +2,8 @@ id: 86
 name: seel
 types:
   - water
-flavor_text: "Loves freezing cold conditions. Relishes swimming\fin a frigid cli­\nmate of around 14F\ndegrees."
+flavor_text: |-
+  Loves freezing cold conditions.
+  Relishes swimming in a frigid cli­
+  mate of around 14F
+  degrees.

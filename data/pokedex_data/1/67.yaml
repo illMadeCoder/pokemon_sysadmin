@@ -2,4 +2,8 @@ id: 67
 name: machoke
 types:
   - fighting
-flavor_text: "The belt around its waist holds back its energy.\fWithout it, this\nPOKéMON would be\nunstoppable."
+flavor_text: |-
+  The belt around its waist holds
+  back its energy. Without it, this
+  POKéMON would be
+  unstoppable.

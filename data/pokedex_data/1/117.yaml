@@ -2,4 +2,8 @@ id: 117
 name: seadra
 types:
   - water
-flavor_text: "Touching the back fin causes numb­ ness. It hooks\fits tail to coral\nto stay in place\nwhile sleeping."
+flavor_text: |-
+  Touching the back fin causes numb­
+  ness. It hooks its tail to coral
+  to stay in place
+  while sleeping.

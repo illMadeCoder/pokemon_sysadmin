@@ -2,4 +2,8 @@ id: 78
 name: rapidash
 types:
   - fire
-flavor_text: "Very competitive, this POKéMON will chase anything\fthat moves fast\nin the hopes of\nracing it."
+flavor_text: |-
+  Very competitive, this POKéMON will
+  chase anything that moves fast
+  in the hopes of
+  racing it.

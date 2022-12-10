@@ -2,4 +2,8 @@ id: 77
 name: ponyta
 types:
   - fire
-flavor_text: "Capable of jumping incredibly high. Its hooves and\fsturdy legs absorb\nthe impact of a\nhard landing."
+flavor_text: |-
+  Capable of jumping incredibly high.
+  Its hooves and sturdy legs absorb
+  the impact of a
+  hard landing.

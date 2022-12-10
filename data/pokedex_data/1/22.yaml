@@ -3,4 +3,8 @@ name: fearow
 types:
   - normal
   - flying
-flavor_text: "A POKéMON that dates back many years. If it\fsenses danger, it\nflies high and\naway, instantly."
+flavor_text: |-
+  A POKéMON that dates back many
+  years. If it senses danger, it
+  flies high and
+  away, instantly.

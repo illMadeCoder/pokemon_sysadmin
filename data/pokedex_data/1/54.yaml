@@ -2,4 +2,8 @@ id: 54
 name: psyduck
 types:
   - water
-flavor_text: "Always tormented by headaches. It uses psychic\fpowers, but it is\nnot known if it\nintends to do so."
+flavor_text: |-
+  Always tormented by headaches.
+  It uses psychic powers, but it is
+  not known if it
+  intends to do so.

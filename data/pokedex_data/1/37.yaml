@@ -2,4 +2,8 @@ id: 37
 name: vulpix
 types:
   - fire
-flavor_text: "Both its fur and its tails are beautiful. As it\fgrows, the tails\nsplit and form\nmore tails."
+flavor_text: |-
+  Both its fur and its tails are
+  beautiful. As it grows, the tails
+  split and form
+  more tails.

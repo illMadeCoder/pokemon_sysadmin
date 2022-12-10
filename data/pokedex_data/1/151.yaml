@@ -2,4 +2,8 @@ id: 151
 name: mew
 types:
   - psychic
-flavor_text: "When viewed through a micro­ scope, this\fPOKéMON's short,\nfine, delicate\nhair can be seen."
+flavor_text: |-
+  When viewed through a micro­
+  scope, this POKéMON's short,
+  fine, delicate
+  hair can be seen.

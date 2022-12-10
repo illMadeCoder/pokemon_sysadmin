@@ -2,4 +2,8 @@ id: 38
 name: ninetales
 types:
   - fire
-flavor_text: "According to an enduring legend, 9 noble saints\fwere united and\nreincarnated as\nthis POKéMON."
+flavor_text: |-
+  According to an enduring legend,
+  9 noble saints were united and
+  reincarnated as
+  this POKéMON.

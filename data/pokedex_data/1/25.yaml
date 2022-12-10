@@ -2,4 +2,8 @@ id: 25
 name: pikachu
 types:
   - electric
-flavor_text: "It keeps its tail raised to monitor its surroundings.\fIf you yank its\ntail, it will try\nto bite you."
+flavor_text: |-
+  It keeps its tail raised to monitor
+  its surroundings. If you yank its
+  tail, it will try
+  to bite you.

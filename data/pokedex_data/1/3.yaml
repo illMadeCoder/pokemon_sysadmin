@@ -3,4 +3,8 @@ name: venusaur
 types:
   - grass
   - poison
-flavor_text: "The flower on its back catches the sun's rays.\fThe sunlight is\nthen absorbed and\nused for energy."
+flavor_text: |-
+  The flower on its back catches the
+  sun's rays. The sunlight is
+  then absorbed and
+  used for energy.

@@ -3,4 +3,8 @@ name: golbat
 types:
   - poison
   - flying
-flavor_text: "It attacks in a stealthy manner, without warning.\fIts sharp fangs\nare used to bite\nand suck blood."
+flavor_text: |-
+  It attacks in a stealthy manner,
+  without warning. Its sharp fangs
+  are used to bite
+  and suck blood.

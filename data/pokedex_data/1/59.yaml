@@ -2,4 +2,8 @@ id: 59
 name: arcanine
 types:
   - fire
-flavor_text: "A legendary POKé­ MON in China. Many people are\fcharmed by its\ngrace and beauty\nwhile running."
+flavor_text: |-
+  A legendary POKé­ MON in China.
+  Many people are charmed by its
+  grace and beauty
+  while running.

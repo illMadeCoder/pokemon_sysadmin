@@ -2,4 +2,8 @@ id: 118
 name: goldeen
 types:
   - water
-flavor_text: "When it is time for them to lay eggs, they can be\fseen swimming up\nrivers and falls\nin large groups."
+flavor_text: |-
+  When it is time for them to lay
+  eggs, they can be seen swimming up
+  rivers and falls
+  in large groups.

@@ -3,4 +3,8 @@ name: weedle
 types:
   - bug
   - poison
-flavor_text: "Beware of the sharp stinger on its head. It\fhides in grass\nand bushes where\nit eats leaves."
+flavor_text: |-
+  Beware of the sharp stinger on
+  its head. It hides in grass
+  and bushes where
+  it eats leaves.

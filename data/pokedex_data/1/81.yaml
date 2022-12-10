@@ -3,4 +3,8 @@ name: magnemite
 types:
   - electric
   - steel
-flavor_text: "It is born with the ability to defy gravity. It\ffloats in air on\npowerful electro­\nmagnetic waves."
+flavor_text: |-
+  It is born with the ability to
+  defy gravity. It floats in air on
+  powerful electro­
+  magnetic waves.

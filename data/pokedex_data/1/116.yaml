@@ -2,4 +2,8 @@ id: 116
 name: horsea
 types:
   - water
-flavor_text: "If it senses any danger, it will vigorously spray\fwater or a special\ntype of ink from\nits mouth."
+flavor_text: |-
+  If it senses any danger, it will
+  vigorously spray water or a special
+  type of ink from
+  its mouth.

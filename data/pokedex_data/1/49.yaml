@@ -3,4 +3,8 @@ name: venomoth
 types:
   - bug
   - poison
-flavor_text: "The dust-like scales covering its wings are\fcolor coded to\nindicate the kinds\nof poison it has."
+flavor_text: |-
+  The dust-like scales covering
+  its wings are color coded to
+  indicate the kinds
+  of poison it has.

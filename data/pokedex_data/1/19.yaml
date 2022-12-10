@@ -2,4 +2,8 @@ id: 19
 name: rattata
 types:
   - normal
-flavor_text: "Bites anything when it attacks. Small and very\fquick, it is a\ncommon sight in\nmany places."
+flavor_text: |-
+  Bites anything when it attacks.
+  Small and very quick, it is a
+  common sight in
+  many places.

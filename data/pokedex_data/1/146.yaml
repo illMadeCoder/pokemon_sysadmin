@@ -3,4 +3,8 @@ name: moltres
 types:
   - fire
   - flying
-flavor_text: "A legendary bird POKéMON. As it flaps its flaming\fwings, even the\nnight sky will\nturn red."
+flavor_text: |-
+  A legendary bird POKéMON. As it
+  flaps its flaming wings, even the
+  night sky will
+  turn red.

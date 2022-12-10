@@ -3,4 +3,8 @@ name: dragonite
 types:
   - dragon
   - flying
-flavor_text: "It is said that this POKéMON lives somewhere in the\fsea and that it\nflies. However, it\nis only a rumor."
+flavor_text: |-
+  It is said that this POKéMON lives
+  somewhere in the sea and that it
+  flies. However, it
+  is only a rumor.

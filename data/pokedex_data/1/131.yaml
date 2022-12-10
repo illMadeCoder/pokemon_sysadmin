@@ -3,4 +3,8 @@ name: lapras
 types:
   - water
   - ice
-flavor_text: "A gentle soul that can read the minds of people. It can\fferry people\nacross the sea on\nits back."
+flavor_text: |-
+  A gentle soul that can read the minds
+  of people. It can ferry people
+  across the sea on
+  its back.

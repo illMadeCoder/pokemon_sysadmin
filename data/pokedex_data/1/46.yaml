@@ -3,4 +3,8 @@ name: paras
 types:
   - bug
   - grass
-flavor_text: "Burrows under the ground to gnaw on tree roots. The\fmushrooms on its\nback absorb most\nof the nutrition."
+flavor_text: |-
+  Burrows under the ground to gnaw on
+  tree roots. The mushrooms on its
+  back absorb most
+  of the nutrition.

@@ -2,4 +2,8 @@ id: 51
 name: dugtrio
 types:
   - ground
-flavor_text: "A team of triplets that can burrow over 60 MPH.\fDue to this, some\npeople think it's\nan earthquake."
+flavor_text: |-
+  A team of triplets that can burrow
+  over 60 MPH. Due to this, some
+  people think it's
+  an earthquake.

@@ -11,16 +11,15 @@ do
     
     mkdir -p "$pokedex_data_path/$mapper_basename"
 
-    for a_pokemon_data_path in $pokemon_data_path/*
+    for pokemon_data_member_path in $pokemon_data_path/*
     do
-	pokemon_json="$a_pokemon_data_path/pokemon.json"
-	species_json="$a_pokemon_data_path/species.json"
+	base_json="$pokemon_data_member_path/base.json"
+	species_json="$pokemon_data_member_path/species.json"
 
-	pokedex_entry_json=$(jq -s --from-file $mapper $pokemon_json $species_json)
-	pokedex_entry_yaml=$(echo $pokedex_entry_json | yq -P)
+	pokedex_entry_yaml=$(jq -s --from-file $mapper $base_json $species_json | yq -P)
 
-	id=$(jq -r .id $pokemon_json)
-	echo $id
+	id=$(yq -r .id $base_json)
+	echo $id	
 	
 	# must echo quotes to perserve special chars
         echo "$pokedex_entry_yaml" \

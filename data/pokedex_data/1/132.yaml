@@ -2,4 +2,8 @@ id: 132
 name: ditto
 types:
   - normal
-flavor_text: "When it spots an enemy, its body transfigures into\fan almost perfect\ncopy of its oppo­\nnent."
+flavor_text: |-
+  When it spots an enemy, its body
+  transfigures into an almost perfect
+  copy of its oppo­
+  nent.

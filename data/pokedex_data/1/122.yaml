@@ -3,4 +3,8 @@ name: mr-mime
 types:
   - psychic
   - fairy
-flavor_text: "Always practices its pantomime act. It makes enemies\fbelieve something\nexists that\nreally doesn't."
+flavor_text: |-
+  Always practices its pantomime act.
+  It makes enemies believe something
+  exists that
+  really doesn't.

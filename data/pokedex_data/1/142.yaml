@@ -3,4 +3,8 @@ name: aerodactyl
 types:
   - rock
   - flying
-flavor_text: "A ferocious, pre­ historic POKéMON that goes for the\fenemy's throat\nwith its serrated\nsaw-like fangs."
+flavor_text: |-
+  A ferocious, pre­ historic POKéMON
+  that goes for the enemy's throat
+  with its serrated
+  saw-like fangs.

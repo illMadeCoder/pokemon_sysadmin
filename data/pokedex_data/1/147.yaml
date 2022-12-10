@@ -2,4 +2,8 @@ id: 147
 name: dratini
 types:
   - dragon
-flavor_text: "The existence of this mythical POKéMON was only\frecently confirmed\nby a fisherman\nwho caught one."
+flavor_text: |-
+  The existence of this mythical
+  POKéMON was only recently confirmed
+  by a fisherman
+  who caught one.

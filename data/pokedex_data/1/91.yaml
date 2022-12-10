@@ -3,4 +3,8 @@ name: cloyster
 types:
   - water
   - ice
-flavor_text: "For protection, it uses its harder- than-diamonds\fshell. It also\nshoots spikes from\nthe shell."
+flavor_text: |-
+  For protection, it uses its harder-
+  than-diamonds shell. It also
+  shoots spikes from
+  the shell.

@@ -2,4 +2,8 @@ id: 89
 name: muk
 types:
   - poison
-flavor_text: "Smells so awful, it can cause fainting. Through\fdegeneration, it\nlost its sense of\nsmell."
+flavor_text: |-
+  Smells so awful, it can cause
+  fainting. Through degeneration, it
+  lost its sense of
+  smell.

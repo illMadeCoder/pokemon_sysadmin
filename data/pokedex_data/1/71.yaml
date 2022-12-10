@@ -3,4 +3,8 @@ name: victreebel
 types:
   - grass
   - poison
-flavor_text: "Said to live in huge colonies deep in jungles,\falthough no one\nhas ever returned\nfrom there."
+flavor_text: |-
+  Said to live in huge colonies
+  deep in jungles, although no one
+  has ever returned
+  from there.

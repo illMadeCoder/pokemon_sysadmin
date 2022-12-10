@@ -2,4 +2,8 @@ id: 105
 name: marowak
 types:
   - ground
-flavor_text: "The bone it holds is its key weapon. It throws the\fbone skillfully\nlike a boomerang\nto KO targets."
+flavor_text: |-
+  The bone it holds is its key weapon.
+  It throws the bone skillfully
+  like a boomerang
+  to KO targets.

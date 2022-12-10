@@ -2,4 +2,8 @@ id: 36
 name: clefable
 types:
   - fairy
-flavor_text: "They appear to be very protective of their own world.\fIt is a kind of\nfairy, rarely seen\nby people."
+flavor_text: |-
+  They appear to be very protective of
+  their own world. It is a kind of
+  fairy, rarely seen
+  by people.

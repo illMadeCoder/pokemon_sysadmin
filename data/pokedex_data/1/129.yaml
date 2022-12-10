@@ -2,4 +2,8 @@ id: 129
 name: magikarp
 types:
   - water
-flavor_text: "Famous for being very unreliable. It can be found\fswimming in seas,\nlakes, rivers and\nshallow puddles."
+flavor_text: |-
+  Famous for being very unreliable.
+  It can be found swimming in seas,
+  lakes, rivers and
+  shallow puddles.

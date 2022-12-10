@@ -2,4 +2,8 @@ id: 30
 name: nidorina
 types:
   - poison
-flavor_text: "When resting deep in its burrow, its thorns always\fretract.\nThis is proof that\nit is relaxed."
+flavor_text: |-
+  When resting deep in its burrow, its
+  thorns always retract.
+  This is proof that
+  it is relaxed.

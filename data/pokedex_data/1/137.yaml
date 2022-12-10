@@ -2,4 +2,8 @@ id: 137
 name: porygon
 types:
   - normal
-flavor_text: "The only POKéMON people anticipate can fly into\fspace. None has\nmanaged the feat\nyet, however."
+flavor_text: |-
+  The only POKéMON people anticipate
+  can fly into space. None has
+  managed the feat
+  yet, however.

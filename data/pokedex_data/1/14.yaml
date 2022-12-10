@@ -3,4 +3,8 @@ name: kakuna
 types:
   - bug
   - poison
-flavor_text: "Able to move only slightly. When endangered, it\fmay stick out its\nstinger and poison\nits enemy."
+flavor_text: |-
+  Able to move only slightly. When
+  endangered, it may stick out its
+  stinger and poison
+  its enemy.

@@ -3,4 +3,8 @@ name: gengar
 types:
   - ghost
   - poison
-flavor_text: "A GENGAR is close by if you feel a sudden chill.\fIt may be trying\nto lay a curse\non you."
+flavor_text: |-
+  A GENGAR is close by if you feel a
+  sudden chill. It may be trying
+  to lay a curse
+  on you.

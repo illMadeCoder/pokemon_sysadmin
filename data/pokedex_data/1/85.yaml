@@ -3,4 +3,8 @@ name: dodrio
 types:
   - normal
   - flying
-flavor_text: "Uses its three brains to execute complex plans.\fWhile two heads\nsleep, one head\nstays awake."
+flavor_text: |-
+  Uses its three brains to execute
+  complex plans. While two heads
+  sleep, one head
+  stays awake.

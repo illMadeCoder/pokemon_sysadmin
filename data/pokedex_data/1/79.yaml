@@ -3,4 +3,8 @@ name: slowpoke
 types:
   - water
   - psychic
-flavor_text: "Incredibly slow and dopey. It takes 5 seconds\ffor it to feel\npain when under\nattack."
+flavor_text: |-
+  Incredibly slow and dopey. It
+  takes 5 seconds for it to feel
+  pain when under
+  attack.

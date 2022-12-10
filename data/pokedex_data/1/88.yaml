@@ -2,4 +2,8 @@ id: 88
 name: grimer
 types:
   - poison
-flavor_text: "Made of hardened sludge. It smells too putrid to\ftouch.\nEven weeds won't\ngrow in its path."
+flavor_text: |-
+  Made of hardened sludge. It smells
+  too putrid to touch.
+  Even weeds won't
+  grow in its path.

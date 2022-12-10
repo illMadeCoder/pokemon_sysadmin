@@ -2,4 +2,8 @@ id: 150
 name: mewtwo
 types:
   - psychic
-flavor_text: "Its DNA is almost the same as MEW's. However, its size\fand disposition\nare vastly dif­\nferent."
+flavor_text: |-
+  Its DNA is almost the same as MEW's.
+  However, its size and disposition
+  are vastly dif­
+  ferent.

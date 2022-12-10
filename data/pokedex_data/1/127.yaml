@@ -2,4 +2,8 @@ id: 127
 name: pinsir
 types:
   - bug
-flavor_text: "Grips its prey in its pincers and squeezes hard! It\fcan't move if it's\ncold, so it lives\nin warm places."
+flavor_text: |-
+  Grips its prey in its pincers and
+  squeezes hard! It can't move if it's
+  cold, so it lives
+  in warm places.

@@ -3,4 +3,8 @@ name: doduo
 types:
   - normal
   - flying
-flavor_text: "Its short wings make flying dif­ ficult. Instead,\fthis POKéMON runs\nat high speed on\ndeveloped legs."
+flavor_text: |-
+  Its short wings make flying dif­
+  ficult. Instead, this POKéMON runs
+  at high speed on
+  developed legs.

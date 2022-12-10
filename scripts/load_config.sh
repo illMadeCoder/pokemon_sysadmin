@@ -16,15 +16,15 @@ mappers_path="$data_scripts_path/mappers"
 pokemon_to_pokedex_path="$mappers_path/pokemon_to_pokedex"
 
 # project root
-root_path="$scripts_path/../.."
+root_path="$scripts_path/.."
 
 # data
 data_path="$root_path/data"
 pokedex_data_path="$data_path/pokedex_data"
 pokemon_data_path="$data_path/pokemon_data"
-days_path="$data_path/days"
+days_data_path="$data_path/days_data"
 
 # game
 game_path="$root_path/game"
-import_dir="$game_path/import"
-export_dir="$game_path/export"
+import_path="$game_path/import"
+export_path="$game_path/export"

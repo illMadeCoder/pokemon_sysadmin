@@ -1,0 +1,30 @@
+#!/bin/bash
+
+clear
+echo "welcome to pokemon_sysadmin"
+
+root_path="$(dirname "$0")"
+game_path="$root_path/game"
+game_scripts_path="$root_path/scripts/game_scripts"
+init_day_path="$game_scripts_path/init_day.sh"
+init_game_path="$game_scripts_path/init_game.sh"
+
+$init_game_path
+
+if [[ $# -gt 0 ]]
+then   
+    day=$1
+else
+    day=1
+    read -p "day: " day
+    $init_day_path $day
+fi    
+
+cd $game_path
+
+while true
+do
+    read -p "/$(basename $(pwd))$ " input
+    $input
+    echo ""
+done

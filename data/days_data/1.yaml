@@ -1,0 +1,5 @@
+import:
+  pokedex:
+    version: 1
+    ids: "25"
+export:

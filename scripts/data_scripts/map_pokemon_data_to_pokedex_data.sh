@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. "$(dirname "$0")/load_config.sh"
+. "$(dirname "$0")/../load_config.sh"
 #pokemon_data_path
 #pokedex_data_path
 #pokemon_to_pokedex_path

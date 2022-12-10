@@ -1,9 +1,9 @@
 #!/bin/bash
 
-. "$(dirname "$0")/load_config.sh"
+. "$(dirname "$0")/../load_config.sh"
 #pokemon_data_path
-#http_get_species
-#http_get_pokemon
+#pokemon_species_request
+#pokemon_base_request
 
 
 # $1 optional target
@@ -53,8 +53,8 @@ do
     mkdir -p $dir
     
     # get data to cache
-    base=$($http_get_base $i)
-    species=$($http_get_species $i)
+    base=$($pokemon_base_request $i)
+    species=$($pokemon_species_request $i)
 
     #validate data integrity
     base_json_id=$(echo "$base" | jq .id)

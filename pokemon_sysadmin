@@ -1,17 +1,39 @@
 #!/bin/bash
 
-# arg $1 : string
-# function str_pop() {
-#      ${
-# }
+# bash arguments
+# $1 : optional day id
 
+function cancel() {
+    echo -ne '\r'
+    for i in $(seq 0 ${#input_buffer})
+    do
+	echo -ne ' '
+    done
+    echo -ne '\r'
+    input_buffer=""
+}
+
+trap 'cancel' INT
+
+previous_inputs=()
+previous_inputs_i=0
 input_buffer=""
-input_buffer_max_length=10
 input=""
 function input_update() {
     while true
     do
-	read -rsN1 input
+	# read -r: do not allow backslashes to escape any characters
+	# read -N: return only after reading exactly NCHARS characters, unless
+        # EOF is encountered or read times out, ignoring any
+        # delimiter
+	# read -s: do not echo input coming from terminal
+	echo -ne '\r'
+	echo -ne "$input_buffer"
+	read -srN1 input
+
+	# echo -n: do not output trailing newline
+	# echo -e: enable intrepretation of backslash escapes
+	# echo ne 
 	input_buffer_length=${#input_buffer}
 	case $input in
 	    $'\177') # backspace
@@ -22,20 +44,42 @@ function input_update() {
 		fi
 		echo -ne '\b'
 		echo -ne ' '
+		echo -ne '\r'
 		;;
-	    $'\n') # enter		
+	    $'\033')				
+		read -srN1 input
+		read -srN1 input
+		case $input in
+		    'A')
+			if [[ previous_inputs_index -eq 0 ]]
+			then
+			    previous_inputs_index=${#previous_inputs[@]}
+			fi
+			previous_inputs_index=$((previous_inputs_index - 1))
+			input_buffer=${previous_inputs[previous_inputs_index]}
+		    ;;
+		    'B')
+			input_buffer=${previous_inputs[previous_inputs_index]}
+			if [[ previous_inputs_index -eq ${#previous_inputs[@]} ]]
+			then
+			    previous_inputs_index=0
+			fi
+			previous_inputs_index=$((previous_inputs_index + 1))			
+			;;
+		esac
+		;;	    
+	    $'\n') # enter
+		previous_inputs_index=0
 		break
 		;;
 	    $' ') # space
-		echo -ne ' '
+		input_buffer+=' '
 		;;
 	    *)
 		input_buffer+=$input
 		;;	
 	esac
 	input_buffer_length=${#input_buffer}
-	echo -ne '\r'
-	echo -ne $input_buffer
     done
 }
 
@@ -54,6 +98,8 @@ function prompt() {
     echo "/$(basename $(pwd))? $input_buffer"
     echo "------------------"
     $input_buffer
+    previous_inputs[${#previous_inputs[@]}]="$input_buffer"
+    echo 
     # todo: when output is empty move on without press enter
     echo "------------------"
     read -sp "press enter to continue..." input

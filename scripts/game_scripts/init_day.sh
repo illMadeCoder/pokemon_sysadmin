@@ -13,8 +13,8 @@ then
 fi
 
 day_data_path=$days_data_path/$1.yaml
-pokedex_ids=$(yq '.import.pokedex.ids' $day_data_path)
-pokedex_version=$(yq '.import.pokedex.version' $day_data_path)
+pokedex_ids=$(yq '.start.import.pokedex.ids' $day_data_path)
+pokedex_version=$(yq '.start.import.pokedex.version' $day_data_path)
 pokedex_data_path="$pokedex_data_path/$pokedex_version"
 
 for id in $pokedex_ids

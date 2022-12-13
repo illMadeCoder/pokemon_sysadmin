@@ -2,40 +2,133 @@
 
 # bash arguments
 # $1 : optional day id
+day=1
+if [[ $# -gt 0 ]]
+then   
+    day=$1
+else
+    read -p "day: " day
+fi
 
+# $2 : optional no clear (true/false)
+no_clear=false
+if [[ $# -gt 1 ]]
+then
+   no_clear=true
+fi
+
+
+root_path="$(realpath $(dirname "$0"))"
+game_path="$root_path/game"
+game_pokedex_path="$game_path/pokedex"
+game_scripts_path="$root_path/scripts/game_scripts"
+init_day_path="$game_scripts_path/init_day.sh"
+init_game_path="$game_scripts_path/init_game.sh"
+day_data_path="$root_path/data/days_data/$day.yaml"
+
+
+# arg 1 : end_pokedex_data
+function end_day_pokedex() {
+    pokedex_end_ids=$(echo "$1" | yq '.ids')
+    for pokedex_end_id in $pokedex_end_ids
+    do
+	local entry_found=false
+	for pokedex_entry_path in ${game_pokedex_path}/*
+	do
+	    pokedex_entry_id=$(cat "$pokedex_entry_path" | yq '.id')
+	    if [[ "$pokedex_entry_id" = "$pokedex_end_id" ]]
+	    then
+		entry_found=true
+		break
+	    fi
+	done
+	if [[ "$entry_found" = false ]]
+	then
+	    return 1
+	fi
+    done
+    return 0
+}
+
+function end_day() {
+    end_data=$(cat "$day_data_path" | yq '.end')
+    end_day_pokedex "$(echo "$end_data" | yq '.pokedex')"
+    if [[ $? -eq 0 ]]
+    then
+	echo "congrats!!!!"
+    else
+	echo "fail :("
+    fi
+}
+
+#input module
+# intercept interupt signal cancel
+#trap 'cancel' INT
 function cancel() {
+    clear_input_buffer_visual
+    input_buffer=""
+}
+
+function clear_input_buffer_visual() {
     echo -ne '\r'
     for i in $(seq 0 ${#input_buffer})
     do
 	echo -ne ' '
     done
     echo -ne '\r'
-    input_buffer=""
 }
 
-trap 'cancel' INT
+function display_input_buffer() {
+    # echo -n: do not output trailing newline
+    # echo -e: enable intrepretation of backslash escapes
+    # echo -e '\r': carriage return which will set the terminal (visual buffer) back to the start to write over    
+    echo -ne '\r'
+    # echo the input_buffer variable over the previous line (must be
+    # in string to act as a literal string, trailing spaces etc)
+    echo -ne "$1"
+}
+
+# arg $1 : input_char
+function read_input_buffer_char() {
+    # read -r: do not allow backslashes to escape any characters
+    # read -N: return only after reading exactly NCHARS characters, unless \
+    # EOF is encountered or read times out, ignoring any \
+    # delimiter
+    # read -s: do not echo input coming from terminal
+    read -srN1 $1
+}
+
+# arg $1 : index
+# arg $2 : collection length
+# arg $3 : increment (-1 or 1)
+function index_rotation_helper() {
+    local index=$1
+    local length=$2
+    local increment=$3
+    local resultant=$(($index + $increment))
+    if [[ $resultant -ge $length ]]
+    then
+	return 0
+    elif [[ $resultant -lt 0 ]]
+    then
+	return $(($length - 1))
+    else
+	return $resultant
+    fi
+}
 
 previous_inputs=()
-previous_inputs_i=0
+previous_inputs_index=0
 input_buffer=""
-input=""
-function input_update() {
+char_buffer=""
+function input_buffer_read() {
+    # keep reading until we read enter
     while true
     do
-	# read -r: do not allow backslashes to escape any characters
-	# read -N: return only after reading exactly NCHARS characters, unless
-        # EOF is encountered or read times out, ignoring any
-        # delimiter
-	# read -s: do not echo input coming from terminal
-	echo -ne '\r'
-	echo -ne "$input_buffer"
-	read -srN1 input
-
-	# echo -n: do not output trailing newline
-	# echo -e: enable intrepretation of backslash escapes
-	# echo ne 
+	display_input_buffer "$input_buffer"
+	read_input_buffer_char char_buffer
 	input_buffer_length=${#input_buffer}
-	case $input in
+	case $char_buffer in
 	    $'\177') # backspace
 		if [[ $input_buffer_length -gt 0 ]]
 		then
@@ -47,24 +140,20 @@ function input_update() {
 		echo -ne '\r'
 		;;
 	    $'\033')				
-		read -srN1 input
-		read -srN1 input
-		case $input in
+	        read_input_buffer_char char_buffer
+	        read_input_buffer_char char_buffer
+		case $char_buffer in
 		    'A')
-			if [[ previous_inputs_index -eq 0 ]]
-			then
-			    previous_inputs_index=${#previous_inputs[@]}
-			fi
-			previous_inputs_index=$((previous_inputs_index - 1))
+			clear_input_buffer_visual
+			index_rotation_helper $previous_inputs_index ${#previous_inputs[@]} -1
+			previous_inputs_index=$?
 			input_buffer=${previous_inputs[previous_inputs_index]}
 		    ;;
 		    'B')
+			clear_input_buffer_visual
 			input_buffer=${previous_inputs[previous_inputs_index]}
-			if [[ previous_inputs_index -eq ${#previous_inputs[@]} ]]
-			then
-			    previous_inputs_index=0
-			fi
-			previous_inputs_index=$((previous_inputs_index + 1))			
+			index_rotation_helper $previous_inputs_index ${#previous_inputs[@]} 1
+			previous_inputs_index=$?
 			;;
 		esac
 		;;	    
@@ -76,14 +165,14 @@ function input_update() {
 		input_buffer+=' '
 		;;
 	    *)
-		input_buffer+=$input
+		input_buffer+=$char_buffer
 		;;	
 	esac
 	input_buffer_length=${#input_buffer}
     done
 }
 
-function prompt() {
+function prompt_input() {
     # echo "Pokemon *Nix V0.21"
     # echo "------------------"
     # echo "Displaying the Present Working Directory /$(basename $(pwd))"
@@ -91,51 +180,47 @@ function prompt() {
     # echo "------------------"
     # echo "Enter a command or help:"
     # #read -p "/$(basename $(pwd))$ " input
-    input_update
+    input_buffer_read
     echo -ne '\n'
 #    echo "/$(basename $(pwd))? $input_buffer"
 #    echo -ne $input_buffer
     echo "/$(basename $(pwd))? $input_buffer"
     echo "------------------"
-    $input_buffer
+    if [[ $input_buffer = "end" ]]
+    then
+	end_day
+	return 0
+    else
+	$input_buffer
+    fi
     previous_inputs[${#previous_inputs[@]}]="$input_buffer"
     echo 
     # todo: when output is empty move on without press enter
     echo "------------------"
     read -sp "press enter to continue..." input
-    clear
+    if [[ "$no_clear" = false ]]
+    then
+	clear
+    else
+	echo -e "\n"
+    fi
     input_buffer=""
-    input=""
+    char_buffer=""
 }
 
-# todo: press up/down for command history
-# todo: tab for auto complete
-
-clear
-echo "welcome to pokemon_sysadmin"
-
-root_path="$(dirname "$0")"
-game_path="$root_path/game"
-game_scripts_path="$root_path/scripts/game_scripts"
-init_day_path="$game_scripts_path/init_day.sh"
-init_game_path="$game_scripts_path/init_game.sh"
-
 $init_game_path
-
-if [[ $# -gt 0 ]]
-then   
-    day=$1
-else
-    read -p "day: " day
-fi
-
 $init_day_path $day
 
 cd $game_path
-
-clear
+if [[ "$no_clear" = false ]]
+then
+    clear
+fi
 while true
 do
-    prompt
-    #clear
+    prompt_input
 done
+
+
+
+

@@ -1,5 +1,9 @@
-import:
+start:
+  import:
+    pokedex:
+      version: 1
+      ids: "25"
+end:
   pokedex:
-    version: 1
     ids: "25"
-export:
+  

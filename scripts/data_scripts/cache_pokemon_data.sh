@@ -1,6 +1,6 @@
 #!/bin/bash
 
-. "$(dirname "$0")/../load_config.sh"
+. "$(dirname "$0")/../env.sh"
 #pokemon_data_path
 #pokemon_species_request
 #pokemon_base_request

@@ -1,0 +1,9 @@
+{
+  "id": 74,
+  "name": "geodude",
+  "types": [
+    "rock",
+    "ground"
+  ],
+  "flavor_text": "Commonly found near mountain trails, etc. If you step on one by accident, it gets angry."
+}

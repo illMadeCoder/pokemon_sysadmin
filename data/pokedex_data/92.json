@@ -1,0 +1,9 @@
+{
+  "id": 92,
+  "name": "gastly",
+  "types": [
+    "ghost",
+    "poison"
+  ],
+  "flavor_text": "Said to appear in decrepit, deserted buildings. It has no real shape as it appears to be made of a gas."
+}

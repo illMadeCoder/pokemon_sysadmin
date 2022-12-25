@@ -1,0 +1,9 @@
+{
+  "id": 82,
+  "name": "magneton",
+  "types": [
+    "electric",
+    "steel"
+  ],
+  "flavor_text": "Generates strange radio signals. It raises the tem­ perature by 3.6F degrees within 3,300 feet."
+}

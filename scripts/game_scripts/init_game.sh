@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # file paths
-. "$(dirname "$0")/../load_config.sh"
+. "$(dirname "$0")/../env.sh"
 
 dirs="pokedex import export"
 

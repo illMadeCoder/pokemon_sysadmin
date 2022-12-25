@@ -3,8 +3,4 @@ name: exeggutor
 types:
   - grass
   - psychic
-flavor_text: |-
-  Its cries are very noisy. This is
-  because each of the 3 heads thinks
-  about whatever it
-  likes.
+flavor_text: Its cries are very noisy. This is because each of the 3 heads thinks about whatever it likes.

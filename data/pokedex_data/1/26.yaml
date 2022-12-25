@@ -2,8 +2,4 @@ id: 26
 name: raichu
 types:
   - electric
-flavor_text: |-
-  Its long tail serves as a
-  ground to protect itself from its
-  own high voltage
-  power.
+flavor_text: Its long tail serves as a ground to protect itself from its own high voltage power.

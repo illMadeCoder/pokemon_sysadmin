@@ -3,8 +3,4 @@ name: pidgey
 types:
   - normal
   - flying
-flavor_text: |-
-  Very docile. If attacked, it will
-  often kick up sand to protect
-  itself rather
-  than fight back.
+flavor_text: Very docile. If attacked, it will often kick up sand to protect itself rather than fight back.

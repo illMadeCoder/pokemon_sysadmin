@@ -2,8 +2,4 @@ id: 64
 name: kadabra
 types:
   - psychic
-flavor_text: |-
-  Many odd things happen if this
-  POKéMON is close by. For example,
-  it makes clocks
-  run backwards.
+flavor_text: Many odd things happen if this POKéMON is close by. For example, it makes clocks run backwards.

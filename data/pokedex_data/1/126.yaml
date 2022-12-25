@@ -2,8 +2,4 @@ id: 126
 name: magmar
 types:
   - fire
-flavor_text: |-
-  Born in an active volcano. Its body
-  is always cloaked in flames, so it
-  looks like a big
-  ball of fire.
+flavor_text: Born in an active volcano. Its body is always cloaked in flames, so it looks like a big ball of fire.

@@ -3,8 +3,4 @@ name: zubat
 types:
   - poison
   - flying
-flavor_text: |-
-  Forms colonies in perpetually dark
-  places. Uses ultrasonic waves
-  to identify and
-  approach targets.
+flavor_text: Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets.

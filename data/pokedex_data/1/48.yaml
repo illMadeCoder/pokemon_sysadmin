@@ -3,8 +3,4 @@ name: venonat
 types:
   - bug
   - poison
-flavor_text: |-
-  Its large eyes act as radars. In a
-  bright place, you can see that they
-  are clusters of
-  many tiny eyes.
+flavor_text: Its large eyes act as radars. In a bright place, you can see that they are clusters of many tiny eyes.

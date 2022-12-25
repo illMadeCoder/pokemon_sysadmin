@@ -3,8 +3,4 @@ name: rhydon
 types:
   - ground
   - rock
-flavor_text: |-
-  Walks on its hind legs. Shows signs
-  of intelligence. Its armor-like
-  hide even repels
-  molten lava.
+flavor_text: Walks on its hind legs. Shows signs of intelligence. Its armor-like hide even repels molten lava.

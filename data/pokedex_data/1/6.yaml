@@ -3,8 +3,4 @@ name: charizard
 types:
   - fire
   - flying
-flavor_text: |-
-  When expelling a blast of super
-  hot fire, the red flame at the tip
-  of its tail burns
-  more intensely.
+flavor_text: When expelling a blast of super hot fire, the red flame at the tip of its tail burns more intensely.

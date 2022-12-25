@@ -3,8 +3,4 @@ name: jynx
 types:
   - ice
   - psychic
-flavor_text: |-
-  Appears to move to a rhythm of
-  its own, as if it were dancing. It
-  wiggles its hips
-  as it walks.
+flavor_text: Appears to move to a rhythm of its own, as if it were dancing. It wiggles its hips as it walks.

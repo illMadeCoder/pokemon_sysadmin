@@ -3,8 +3,4 @@ name: vileplume
 types:
   - grass
   - poison
-flavor_text: |-
-  The larger its petals, the more
-  toxic pollen it contains. Its big
-  head is heavy and
-  hard to hold up.
+flavor_text: The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up.

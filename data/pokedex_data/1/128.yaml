@@ -2,8 +2,4 @@ id: 128
 name: tauros
 types:
   - normal
-flavor_text: |-
-  A rowdy POKéMON with a lot of
-  stamina. Once running, it won't
-  stop until it hits
-  something.
+flavor_text: A rowdy POKéMON with a lot of stamina. Once running, it won't stop until it hits something.

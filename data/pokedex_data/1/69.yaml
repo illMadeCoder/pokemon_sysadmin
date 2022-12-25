@@ -3,8 +3,4 @@ name: bellsprout
 types:
   - grass
   - poison
-flavor_text: |-
-  Prefers hot and humid places.
-  It ensnares tiny insects with its
-  vines and devours
-  them.
+flavor_text: Prefers hot and humid places. It ensnares tiny insects with its vines and devours them.

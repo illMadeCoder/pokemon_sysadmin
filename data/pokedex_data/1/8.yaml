@@ -2,8 +2,4 @@ id: 8
 name: wartortle
 types:
   - water
-flavor_text: |-
-  When tapped, this POKéMON will pull
-  in its head, but its tail will
-  still stick out a
-  little bit.
+flavor_text: When tapped, this POKéMON will pull in its head, but its tail will still stick out a little bit.

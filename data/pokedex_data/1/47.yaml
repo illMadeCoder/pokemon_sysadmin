@@ -3,8 +3,4 @@ name: parasect
 types:
   - bug
   - grass
-flavor_text: |-
-  The bug host is drained of energy
-  by the mushrooms on its back. They
-  appear to do all
-  the thinking.
+flavor_text: The bug host is drained of energy by the mushrooms on its back. They appear to do all the thinking.

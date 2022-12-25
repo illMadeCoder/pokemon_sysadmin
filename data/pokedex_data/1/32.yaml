@@ -2,8 +2,4 @@ id: 32
 name: nidoran-m
 types:
   - poison
-flavor_text: |-
-  Its large ears are always kept
-  upright. If it senses danger, it
-  will attack with a
-  poisonous sting.
+flavor_text: Its large ears are always kept upright. If it senses danger, it will attack with a poisonous sting.

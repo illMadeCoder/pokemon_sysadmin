@@ -2,8 +2,4 @@ id: 125
 name: electabuzz
 types:
   - electric
-flavor_text: |-
-  If a major power outage occurs, it
-  is certain that this POKéMON has
-  eaten electricity
-  at a power plant.
+flavor_text: If a major power outage occurs, it is certain that this POKéMON has eaten electricity at a power plant.

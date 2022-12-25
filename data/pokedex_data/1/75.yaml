@@ -3,8 +3,4 @@ name: graveler
 types:
   - rock
   - ground
-flavor_text: |-
-  Rolls down slopes to move. It rolls
-  over any obstacle without slowing
-  or changing its
-  direction.
+flavor_text: Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction.

@@ -3,8 +3,4 @@ name: rhyhorn
 types:
   - ground
   - rock
-flavor_text: |-
-  Its massive bones are 1000 times
-  harder than human bones. It can
-  easily knock a
-  trailer flying.
+flavor_text: Its massive bones are 1000 times harder than human bones. It can easily knock a trailer flying.

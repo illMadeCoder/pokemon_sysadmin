@@ -3,8 +3,4 @@ name: pidgeot
 types:
   - normal
   - flying
-flavor_text: |-
-  This POKéMON flies at Mach 2 speed,
-  seeking prey. Its large talons
-  are feared as
-  wicked weapons.
+flavor_text: This POKéMON flies at Mach 2 speed, seeking prey. Its large talons are feared as wicked weapons.

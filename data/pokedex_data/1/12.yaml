@@ -3,8 +3,4 @@ name: butterfree
 types:
   - bug
   - flying
-flavor_text: |-
-  Its wings, covered with poisonous
-  powders, repel water. This
-  allows it to fly
-  in the rain.
+flavor_text: Its wings, covered with poisonous powders, repel water. This allows it to fly in the rain.

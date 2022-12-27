@@ -1,6 +1,7 @@
 {
-id,
-name,
-types,
-flavor_text
+    id,
+    name,
+    types,
+    flavor_text,
+    
 }

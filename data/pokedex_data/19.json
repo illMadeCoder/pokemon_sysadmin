@@ -4,5 +4,6 @@
   "types": [
     "normal"
   ],
-  "flavor_text": "Bites anything when it attacks. Small and very quick, it is a common sight in many places."
+  "flavor_text": "Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png"
 }

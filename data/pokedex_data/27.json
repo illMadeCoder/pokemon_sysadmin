@@ -4,5 +4,6 @@
   "types": [
     "ground"
   ],
-  "flavor_text": "Its body is dry. When it gets cold at night, its hide is said to become coated with a fine dew."
+  "flavor_text": "Its body is dry. When it gets cold at night, its hide is said to become coated with a fine dew.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png"
 }

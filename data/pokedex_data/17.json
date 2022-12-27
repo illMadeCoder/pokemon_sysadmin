@@ -5,5 +5,6 @@
     "normal",
     "flying"
   ],
-  "flavor_text": "This POKéMON is full of vitality. It constantly flies around its large territory in search of prey."
+  "flavor_text": "This POKéMON is full of vitality. It constantly flies around its large territory in search of prey.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png"
 }

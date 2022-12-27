@@ -4,5 +4,6 @@
   "types": [
     "dragon"
   ],
-  "flavor_text": "A mystical POKéMON that exudes a gentle aura. Has the ability to change climate conditions."
+  "flavor_text": "A mystical POKéMON that exudes a gentle aura. Has the ability to change climate conditions.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png"
 }

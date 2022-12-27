@@ -4,5 +4,6 @@
   "types": [
     "poison"
   ],
-  "flavor_text": "Made of hardened sludge. It smells too putrid to touch. Even weeds won't grow in its path."
+  "flavor_text": "Made of hardened sludge. It smells too putrid to touch. Even weeds won't grow in its path.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png"
 }

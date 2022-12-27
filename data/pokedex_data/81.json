@@ -5,5 +5,6 @@
     "electric",
     "steel"
   ],
-  "flavor_text": "It is born with the ability to defy gravity. It floats in air on powerful electro­ magnetic waves."
+  "flavor_text": "It is born with the ability to defy gravity. It floats in air on powerful electro­ magnetic waves.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png"
 }

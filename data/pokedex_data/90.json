@@ -4,5 +4,6 @@
   "types": [
     "water"
   ],
-  "flavor_text": "The shell can withstand any attack. However, when it is open, the tender body is exposed."
+  "flavor_text": "The shell can withstand any attack. However, when it is open, the tender body is exposed.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png"
 }

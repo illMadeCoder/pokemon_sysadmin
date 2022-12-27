@@ -5,5 +5,6 @@
     "normal",
     "fairy"
   ],
-  "flavor_text": "Its body is full of elasticity. By inhaling deeply, it can continue to inflate itself without limit."
+  "flavor_text": "Its body is full of elasticity. By inhaling deeply, it can continue to inflate itself without limit.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png"
 }

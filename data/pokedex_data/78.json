@@ -4,5 +4,6 @@
   "types": [
     "fire"
   ],
-  "flavor_text": "Very competitive, this POKéMON will chase anything that moves fast in the hopes of racing it."
+  "flavor_text": "Very competitive, this POKéMON will chase anything that moves fast in the hopes of racing it.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png"
 }

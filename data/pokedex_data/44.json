@@ -5,5 +5,6 @@
     "grass",
     "poison"
   ],
-  "flavor_text": "Smells incredibly foul! However, around 1 out of 1,000 people enjoy sniffing its nose- bending stink."
+  "flavor_text": "Smells incredibly foul! However, around 1 out of 1,000 people enjoy sniffing its nose- bending stink.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png"
 }

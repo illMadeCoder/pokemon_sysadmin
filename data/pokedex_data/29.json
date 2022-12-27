@@ -4,5 +4,6 @@
   "types": [
     "poison"
   ],
-  "flavor_text": "A mild-mannered POKéMON that does not like to fight. Beware, its small horns secrete venom."
+  "flavor_text": "A mild-mannered POKéMON that does not like to fight. Beware, its small horns secrete venom.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png"
 }

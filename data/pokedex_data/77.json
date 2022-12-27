@@ -4,5 +4,6 @@
   "types": [
     "fire"
   ],
-  "flavor_text": "Capable of jumping incredibly high. Its hooves and sturdy legs absorb the impact of a hard landing."
+  "flavor_text": "Capable of jumping incredibly high. Its hooves and sturdy legs absorb the impact of a hard landing.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png"
 }

@@ -5,5 +5,6 @@
     "grass",
     "poison"
   ],
-  "flavor_text": "The flower on its back catches the sun's rays. The sunlight is then absorbed and used for energy."
+  "flavor_text": "The flower on its back catches the sun's rays. The sunlight is then absorbed and used for energy.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
 }

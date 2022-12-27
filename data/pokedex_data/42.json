@@ -5,5 +5,6 @@
     "poison",
     "flying"
   ],
-  "flavor_text": "It attacks in a stealthy manner, without warning. Its sharp fangs are used to bite and suck blood."
+  "flavor_text": "It attacks in a stealthy manner, without warning. Its sharp fangs are used to bite and suck blood.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png"
 }

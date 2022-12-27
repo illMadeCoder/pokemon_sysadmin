@@ -5,5 +5,6 @@
     "grass",
     "poison"
   ],
-  "flavor_text": "Said to live in huge colonies deep in jungles, although no one has ever returned from there."
+  "flavor_text": "Said to live in huge colonies deep in jungles, although no one has ever returned from there.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png"
 }

@@ -5,5 +5,6 @@
     "ground",
     "rock"
   ],
-  "flavor_text": "Walks on its hind legs. Shows signs of intelligence. Its armor-like hide even repels molten lava."
+  "flavor_text": "Walks on its hind legs. Shows signs of intelligence. Its armor-like hide even repels molten lava.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png"
 }

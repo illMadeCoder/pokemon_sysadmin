@@ -4,5 +4,6 @@
   "types": [
     "poison"
   ],
-  "flavor_text": "An aggressive POKéMON that is quick to attack. The horn on its head secretes a powerful venom."
+  "flavor_text": "An aggressive POKéMON that is quick to attack. The horn on its head secretes a powerful venom.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png"
 }

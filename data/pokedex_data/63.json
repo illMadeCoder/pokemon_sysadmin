@@ -4,5 +4,6 @@
   "types": [
     "psychic"
   ],
-  "flavor_text": "Sleeps 18 hours a day. If it senses danger, it will teleport itself to safety even as it sleeps."
+  "flavor_text": "Sleeps 18 hours a day. If it senses danger, it will teleport itself to safety even as it sleeps.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png"
 }

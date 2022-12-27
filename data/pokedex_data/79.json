@@ -5,5 +5,6 @@
     "water",
     "psychic"
   ],
-  "flavor_text": "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack."
+  "flavor_text": "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png"
 }

@@ -4,5 +4,6 @@
   "types": [
     "electric"
   ],
-  "flavor_text": "Stores electrical energy inside its body. Even the slightest shock could trigger a huge explosion."
+  "flavor_text": "Stores electrical energy inside its body. Even the slightest shock could trigger a huge explosion.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png"
 }

@@ -4,5 +4,6 @@
   "types": [
     "normal"
   ],
-  "flavor_text": "Raises its young in its belly pouch. Won't run from any fight to keep its young protected."
+  "flavor_text": "Raises its young in its belly pouch. Won't run from any fight to keep its young protected.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png"
 }

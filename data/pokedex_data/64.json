@@ -4,5 +4,6 @@
   "types": [
     "psychic"
   ],
-  "flavor_text": "Many odd things happen if this POKéMON is close by. For example, it makes clocks run backwards."
+  "flavor_text": "Many odd things happen if this POKéMON is close by. For example, it makes clocks run backwards.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png"
 }

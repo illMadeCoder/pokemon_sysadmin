@@ -5,5 +5,6 @@
     "bug",
     "poison"
   ],
-  "flavor_text": "Its large eyes act as radars. In a bright place, you can see that they are clusters of many tiny eyes."
+  "flavor_text": "Its large eyes act as radars. In a bright place, you can see that they are clusters of many tiny eyes.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png"
 }

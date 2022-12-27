@@ -5,5 +5,6 @@
     "rock",
     "flying"
   ],
-  "flavor_text": "A ferocious, pre­ historic POKéMON that goes for the enemy's throat with its serrated saw-like fangs."
+  "flavor_text": "A ferocious, pre­ historic POKéMON that goes for the enemy's throat with its serrated saw-like fangs.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png"
 }

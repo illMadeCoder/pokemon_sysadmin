@@ -4,5 +4,6 @@
   "types": [
     "water"
   ],
-  "flavor_text": "When it is time for them to lay eggs, they can be seen swimming up rivers and falls in large groups."
+  "flavor_text": "When it is time for them to lay eggs, they can be seen swimming up rivers and falls in large groups.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png"
 }

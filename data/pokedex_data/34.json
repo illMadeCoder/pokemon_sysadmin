@@ -5,5 +5,6 @@
     "poison",
     "ground"
   ],
-  "flavor_text": "Its steel-like hide adds to its powerful tackle. Its horns are so hard, they can pierce a diamond."
+  "flavor_text": "Its steel-like hide adds to its powerful tackle. Its horns are so hard, they can pierce a diamond.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png"
 }

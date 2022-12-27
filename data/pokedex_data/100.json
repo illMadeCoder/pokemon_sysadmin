@@ -4,5 +4,6 @@
   "types": [
     "electric"
   ],
-  "flavor_text": "It is said to camouflage itself as a POKé BALL. It will self-destruct with very little stimulus."
+  "flavor_text": "It is said to camouflage itself as a POKé BALL. It will self-destruct with very little stimulus.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png"
 }

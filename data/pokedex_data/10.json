@@ -4,5 +4,6 @@
   "types": [
     "bug"
   ],
-  "flavor_text": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls."
+  "flavor_text": "Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png"
 }

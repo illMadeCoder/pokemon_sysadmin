@@ -4,5 +4,6 @@
   "types": [
     "water"
   ],
-  "flavor_text": "Touching the back fin causes numb­ ness. It hooks its tail to coral to stay in place while sleeping."
+  "flavor_text": "Touching the back fin causes numb­ ness. It hooks its tail to coral to stay in place while sleeping.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png"
 }

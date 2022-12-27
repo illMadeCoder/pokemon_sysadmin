@@ -4,5 +4,6 @@
   "types": [
     "fire"
   ],
-  "flavor_text": "It has a flame chamber inside its body. It inhales, then blows out fire that is over 3,000F degrees."
+  "flavor_text": "It has a flame chamber inside its body. It inhales, then blows out fire that is over 3,000F degrees.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png"
 }

@@ -5,5 +5,6 @@
     "ice",
     "flying"
   ],
-  "flavor_text": "A legendary bird POKéMON. It freezes water that is contained in winter air and makes it snow."
+  "flavor_text": "A legendary bird POKéMON. It freezes water that is contained in winter air and makes it snow.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png"
 }

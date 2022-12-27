@@ -4,5 +4,6 @@
   "types": [
     "fire"
   ],
-  "flavor_text": "Both its fur and its tails are beautiful. As it grows, the tails split and form more tails."
+  "flavor_text": "Both its fur and its tails are beautiful. As it grows, the tails split and form more tails.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
 }

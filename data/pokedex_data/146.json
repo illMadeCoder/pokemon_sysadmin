@@ -5,5 +5,6 @@
     "fire",
     "flying"
   ],
-  "flavor_text": "A legendary bird POKéMON. As it flaps its flaming wings, even the night sky will turn red."
+  "flavor_text": "A legendary bird POKéMON. As it flaps its flaming wings, even the night sky will turn red.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png"
 }

@@ -59,9 +59,13 @@ do
     #validate data integrity
     base_json_id=$(echo "$base" | jq .id)
     species_json_id=$(echo "$species" | jq .id)    
-        
+
+    # get sprite
+    sprite_ascii=$(echo $base | jq '.sprites.front_default' | xargs curl | chafa --symbols ascii --scale 4)
+    
     # populate cache
     # put in sub command because mew id 151 is seemingly too big at 500k bytes
     $(echo "$base" > "$dir/base.json")
-    $(echo "$species" > "$dir/species.json")    
+    $(echo "$species" > "$dir/species.json")
+    $(echo "$sprite_ascii" > "$dir/sprite.ascii")
 done

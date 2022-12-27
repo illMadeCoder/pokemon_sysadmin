@@ -4,5 +4,6 @@
   "types": [
     "normal"
   ],
-  "flavor_text": "It uses its whis­ kers to maintain its balance. It apparently slows down if they are cut off."
+  "flavor_text": "It uses its whis­ kers to maintain its balance. It apparently slows down if they are cut off.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png"
 }

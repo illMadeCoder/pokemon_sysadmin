@@ -5,5 +5,6 @@
     "normal",
     "flying"
   ],
-  "flavor_text": "Its short wings make flying dif­ ficult. Instead, this POKéMON runs at high speed on developed legs."
+  "flavor_text": "Its short wings make flying dif­ ficult. Instead, this POKéMON runs at high speed on developed legs.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png"
 }

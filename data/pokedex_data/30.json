@@ -4,5 +4,6 @@
   "types": [
     "poison"
   ],
-  "flavor_text": "When resting deep in its burrow, its thorns always retract. This is proof that it is relaxed."
+  "flavor_text": "When resting deep in its burrow, its thorns always retract. This is proof that it is relaxed.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png"
 }

@@ -4,5 +4,6 @@
   "types": [
     "poison"
   ],
-  "flavor_text": "It lives and grows by absorbing dust, germs and poison gases that are contained in toxic waste and garbage."
+  "flavor_text": "It lives and grows by absorbing dust, germs and poison gases that are contained in toxic waste and garbage.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png"
 }

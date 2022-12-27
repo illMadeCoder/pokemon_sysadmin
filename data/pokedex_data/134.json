@@ -4,5 +4,6 @@
   "types": [
     "water"
   ],
-  "flavor_text": "Its cell structure is similar to water molecules. It will melt away and become invis­ ible in water."
+  "flavor_text": "Its cell structure is similar to water molecules. It will melt away and become invis­ ible in water.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png"
 }

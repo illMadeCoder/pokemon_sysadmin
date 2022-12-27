@@ -4,5 +4,6 @@
   "types": [
     "water"
   ],
-  "flavor_text": "Famous for being very unreliable. It can be found swimming in seas, lakes, rivers and shallow puddles."
+  "flavor_text": "Famous for being very unreliable. It can be found swimming in seas, lakes, rivers and shallow puddles.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png"
 }

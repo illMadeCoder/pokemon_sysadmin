@@ -4,5 +4,6 @@
   "types": [
     "psychic"
   ],
-  "flavor_text": "Its DNA is almost the same as MEW's. However, its size and disposition are vastly dif­ ferent."
+  "flavor_text": "Its DNA is almost the same as MEW's. However, its size and disposition are vastly dif­ ferent.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png"
 }

@@ -4,5 +4,6 @@
   "types": [
     "dragon"
   ],
-  "flavor_text": "The existence of this mythical POKéMON was only recently confirmed by a fisherman who caught one."
+  "flavor_text": "The existence of this mythical POKéMON was only recently confirmed by a fisherman who caught one.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png"
 }

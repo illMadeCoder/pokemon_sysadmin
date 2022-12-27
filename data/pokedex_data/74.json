@@ -5,5 +5,6 @@
     "rock",
     "ground"
   ],
-  "flavor_text": "Commonly found near mountain trails, etc. If you step on one by accident, it gets angry."
+  "flavor_text": "Commonly found near mountain trails, etc. If you step on one by accident, it gets angry.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png"
 }

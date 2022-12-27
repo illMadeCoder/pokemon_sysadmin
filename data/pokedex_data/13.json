@@ -5,5 +5,6 @@
     "bug",
     "poison"
   ],
-  "flavor_text": "Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves."
+  "flavor_text": "Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png"
 }

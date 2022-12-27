@@ -4,5 +4,6 @@
   "types": [
     "psychic"
   ],
-  "flavor_text": "Avoid eye contact if you come across one. It will try to put you to sleep by using its pendulum."
+  "flavor_text": "Avoid eye contact if you come across one. It will try to put you to sleep by using its pendulum.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png"
 }

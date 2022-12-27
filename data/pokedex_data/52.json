@@ -4,5 +4,6 @@
   "types": [
     "normal"
   ],
-  "flavor_text": "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change."
+  "flavor_text": "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png"
 }

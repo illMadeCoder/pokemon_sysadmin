@@ -5,5 +5,6 @@
     "grass",
     "poison"
   ],
-  "flavor_text": "When hungry, it swallows anything that moves. Its hapless prey is melted inside by strong acids."
+  "flavor_text": "When hungry, it swallows anything that moves. Its hapless prey is melted inside by strong acids.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png"
 }

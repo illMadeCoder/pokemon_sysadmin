@@ -4,5 +4,6 @@
   "types": [
     "normal"
   ],
-  "flavor_text": "The only POKéMON people anticipate can fly into space. None has managed the feat yet, however."
+  "flavor_text": "The only POKéMON people anticipate can fly into space. None has managed the feat yet, however.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png"
 }

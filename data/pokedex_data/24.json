@@ -4,5 +4,6 @@
   "types": [
     "poison"
   ],
-  "flavor_text": "The frightening patterns on its belly have been studied. Six variations have been confirmed."
+  "flavor_text": "The frightening patterns on its belly have been studied. Six variations have been confirmed.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png"
 }

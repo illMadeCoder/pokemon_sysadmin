@@ -5,5 +5,6 @@
     "fire",
     "flying"
   ],
-  "flavor_text": "When expelling a blast of super hot fire, the red flame at the tip of its tail burns more intensely."
+  "flavor_text": "When expelling a blast of super hot fire, the red flame at the tip of its tail burns more intensely.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png"
 }

@@ -5,5 +5,6 @@
     "bug",
     "poison"
   ],
-  "flavor_text": "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has."
+  "flavor_text": "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png"
 }

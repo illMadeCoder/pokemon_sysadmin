@@ -5,5 +5,6 @@
     "rock",
     "water"
   ],
-  "flavor_text": "A POKéMON that was recovered from a fossil. It uses the eyes on its back while hiding on the sea floor."
+  "flavor_text": "A POKéMON that was recovered from a fossil. It uses the eyes on its back while hiding on the sea floor.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png"
 }

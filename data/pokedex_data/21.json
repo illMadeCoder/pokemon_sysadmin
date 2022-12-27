@@ -5,5 +5,6 @@
     "normal",
     "flying"
   ],
-  "flavor_text": "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne."
+  "flavor_text": "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png"
 }

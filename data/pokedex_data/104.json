@@ -4,5 +4,6 @@
   "types": [
     "ground"
   ],
-  "flavor_text": "Wears the skull of its deceased mother. Its cries echo inside the skull and come out as a sad melody."
+  "flavor_text": "Wears the skull of its deceased mother. Its cries echo inside the skull and come out as a sad melody.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png"
 }

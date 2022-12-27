@@ -4,5 +4,6 @@
   "types": [
     "normal"
   ],
-  "flavor_text": "The gem in its forehead glows on its own! It walks with all the grace and elegance of a proud queen."
+  "flavor_text": "The gem in its forehead glows on its own! It walks with all the grace and elegance of a proud queen.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png"
 }

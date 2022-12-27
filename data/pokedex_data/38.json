@@ -4,5 +4,6 @@
   "types": [
     "fire"
   ],
-  "flavor_text": "According to an enduring legend, 9 noble saints were united and reincarnated as this POKéMON."
+  "flavor_text": "According to an enduring legend, 9 noble saints were united and reincarnated as this POKéMON.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png"
 }

@@ -4,5 +4,6 @@
   "types": [
     "normal"
   ],
-  "flavor_text": "When it spots an enemy, its body transfigures into an almost perfect copy of its oppo­ nent."
+  "flavor_text": "When it spots an enemy, its body transfigures into an almost perfect copy of its oppo­ nent.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png"
 }

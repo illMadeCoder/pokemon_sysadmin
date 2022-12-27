@@ -4,5 +4,6 @@
   "types": [
     "psychic"
   ],
-  "flavor_text": "If you sleep by it all the time, it will sometimes show you dreams it has eaten in the past."
+  "flavor_text": "If you sleep by it all the time, it will sometimes show you dreams it has eaten in the past.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png"
 }

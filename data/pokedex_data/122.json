@@ -5,5 +5,6 @@
     "psychic",
     "fairy"
   ],
-  "flavor_text": "Always practices its pantomime act. It makes enemies believe something exists that really doesn't."
+  "flavor_text": "Always practices its pantomime act. It makes enemies believe something exists that really doesn't.",
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png"
 }

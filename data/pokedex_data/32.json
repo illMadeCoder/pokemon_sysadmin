@@ -1,9 +1,0 @@
-{
-  "id": 32,
-  "name": "nidoran-m",
-  "types": [
-    "poison"
-  ],
-  "flavor_text": "Its large ears are always kept upright. If it senses danger, it will attack with a poisonous sting.",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png"
-}

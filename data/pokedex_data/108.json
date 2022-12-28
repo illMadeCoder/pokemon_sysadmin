@@ -1,9 +1,0 @@
-{
-  "id": 108,
-  "name": "lickitung",
-  "types": [
-    "normal"
-  ],
-  "flavor_text": "Its tongue spans almost 7 feet and moves more freely than its forelegs. Its licks can cause paralysis.",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png"
-}

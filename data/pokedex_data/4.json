@@ -1,9 +1,0 @@
-{
-  "id": 4,
-  "name": "charmander",
-  "types": [
-    "fire"
-  ],
-  "flavor_text": "The flame at the tip of its tail makes a sound as it burns. You can only hear it in quiet places.",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
-}

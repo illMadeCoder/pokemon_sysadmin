@@ -1,9 +1,0 @@
-{
-  "id": 109,
-  "name": "koffing",
-  "types": [
-    "poison"
-  ],
-  "flavor_text": "In hot places, its internal gases could expand and explode without any warning. Be very careful!",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png"
-}

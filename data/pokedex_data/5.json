@@ -1,9 +1,0 @@
-{
-  "id": 5,
-  "name": "charmeleon",
-  "types": [
-    "fire"
-  ],
-  "flavor_text": "Tough fights could excite this POKéMON. When excited, it may blow out bluish- white flames.",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
-}

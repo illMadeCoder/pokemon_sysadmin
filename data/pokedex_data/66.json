@@ -1,9 +1,0 @@
-{
-  "id": 66,
-  "name": "machop",
-  "types": [
-    "fighting"
-  ],
-  "flavor_text": "Loves to build its muscles. It trains in all styles of martial arts to become even stronger.",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png"
-}

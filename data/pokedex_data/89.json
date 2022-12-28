@@ -1,9 +1,0 @@
-{
-  "id": 89,
-  "name": "muk",
-  "types": [
-    "poison"
-  ],
-  "flavor_text": "Smells so awful, it can cause fainting. Through degeneration, it lost its sense of smell.",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png"
-}

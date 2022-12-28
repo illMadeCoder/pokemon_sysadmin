@@ -1,9 +1,0 @@
-{
-  "id": 35,
-  "name": "clefairy",
-  "types": [
-    "fairy"
-  ],
-  "flavor_text": "Adored for their cute looks and playfulness. They are thought to be rare, as they do not appear often.",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png"
-}

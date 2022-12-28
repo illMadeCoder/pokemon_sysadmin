@@ -1,9 +1,0 @@
-{
-  "id": 54,
-  "name": "psyduck",
-  "types": [
-    "water"
-  ],
-  "flavor_text": "Always tormented by headaches. It uses psychic powers, but it is not known if it intends to do so.",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png"
-}

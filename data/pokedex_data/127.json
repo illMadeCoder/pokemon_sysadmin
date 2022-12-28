@@ -1,9 +1,0 @@
-{
-  "id": 127,
-  "name": "pinsir",
-  "types": [
-    "bug"
-  ],
-  "flavor_text": "Grips its prey in its pincers and squeezes hard! It can't move if it's cold, so it lives in warm places.",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png"
-}

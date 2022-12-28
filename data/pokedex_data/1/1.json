@@ -1,0 +1,9 @@
+{
+  "id": 1,
+  "name": "bulbasaur",
+  "types": [
+    "grass",
+    "poison"
+  ],
+  "flavor_text": "It can go for days without eating a single morsel. In the bulb on its back, it stores energy."
+}

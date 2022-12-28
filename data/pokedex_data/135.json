@@ -1,9 +1,0 @@
-{
-  "id": 135,
-  "name": "jolteon",
-  "types": [
-    "electric"
-  ],
-  "flavor_text": "A sensitive POKé­ MON that easily becomes sad or angry. Every time its mood changes, it charges power.",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png"
-}

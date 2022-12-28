@@ -1,9 +1,0 @@
-{
-  "id": 120,
-  "name": "staryu",
-  "types": [
-    "water"
-  ],
-  "flavor_text": "An enigmatic POKéMON that can effortlessly regenerate any appendage it loses in battle.",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png"
-}

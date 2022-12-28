@@ -1,9 +1,0 @@
-{
-  "id": 67,
-  "name": "machoke",
-  "types": [
-    "fighting"
-  ],
-  "flavor_text": "The belt around its waist holds back its energy. Without it, this POKéMON would be unstoppable.",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png"
-}

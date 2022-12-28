@@ -1,0 +1,9 @@
+{
+  "id": 130,
+  "name": "gyarados",
+  "types": [
+    "water",
+    "flying"
+  ],
+  "flavor_text": "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage."
+}

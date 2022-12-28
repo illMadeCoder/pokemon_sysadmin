@@ -1,9 +1,0 @@
-{
-  "id": 51,
-  "name": "dugtrio",
-  "types": [
-    "ground"
-  ],
-  "flavor_text": "A team of triplets that can burrow over 60 MPH. Due to this, some people think it's an earthquake.",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png"
-}

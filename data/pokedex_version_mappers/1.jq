@@ -3,5 +3,4 @@
     name,
     types,
     flavor_text,
-    
 }

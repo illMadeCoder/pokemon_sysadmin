@@ -1,9 +1,0 @@
-{
-  "id": 116,
-  "name": "horsea",
-  "types": [
-    "water"
-  ],
-  "flavor_text": "If it senses any danger, it will vigorously spray water or a special type of ink from its mouth.",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png"
-}

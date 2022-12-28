@@ -1,9 +1,0 @@
-{
-  "id": 7,
-  "name": "squirtle",
-  "types": [
-    "water"
-  ],
-  "flavor_text": "Shoots water at prey while in the water. Withdraws into its shell when in danger.",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
-}

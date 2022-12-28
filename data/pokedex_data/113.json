@@ -1,9 +1,0 @@
-{
-  "id": 113,
-  "name": "chansey",
-  "types": [
-    "normal"
-  ],
-  "flavor_text": "A gentle and kind­ hearted POKéMON that shares its nutritious eggs if it sees an injured POKéMON.",
-  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png"
-}

@@ -6,20 +6,20 @@
 #pokemon_base_request
 
 
-# $1 optional target
+# $1 optional destination
 # $2 optional pokemon id start
 # $3 optional pokemon id end
 
 if [[ $# -gt 0 ]]
 then
-    target=$1
+    destination=$1
 else
-    target=$pokemon_data_path
+    destination=$pokemon_data_path
 fi
 
 if [ ! -d $1 ]
 then
-    echo "invalid target directory $1"
+    echo "invalid destination directory $1"
     exit 1
 fi
 
@@ -40,7 +40,7 @@ else
     id_end=151
 fi
 
-echo "target: $target"
+echo "destination: $destination"
 echo "id_start: $id_start"
 echo "id_end: $id_end"
 
@@ -49,7 +49,7 @@ do
     echo "$i / $id_end"
     
     # prepare dir
-    dir="$target/$i"
+    dir="$destination/$i"
     mkdir -p $dir
     
     # get data to cache
@@ -60,12 +60,13 @@ do
     base_json_id=$(echo "$base" | jq .id)
     species_json_id=$(echo "$species" | jq .id)    
 
-    # get sprite
-    sprite_ascii=$(echo $base | jq '.sprites.front_default' | xargs curl | chafa --symbols ascii --scale 4)
+    #get sprite
+    sprite_request=$(echo $base | jq -r .sprites.front_default)
     
     # populate cache
     # put in sub command because mew id 151 is seemingly too big at 500k bytes
     $(echo "$base" > "$dir/base.json")
     $(echo "$species" > "$dir/species.json")
-    $(echo "$sprite_ascii" > "$dir/sprite.ascii")
+    # defective for mew 151, must perform manually for now
+    wget $sprite_request -O "$dir/sprite.png"
 done

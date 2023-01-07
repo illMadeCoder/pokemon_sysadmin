@@ -13,6 +13,7 @@ Cargo.lock
 *.org
 ./samples
 ./project
+./game
 
 # Added by cargo
 /target
